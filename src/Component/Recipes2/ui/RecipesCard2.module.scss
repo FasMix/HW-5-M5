@@ -1,0 +1,85 @@
+.recipes {
+    width: 1280px;
+    height: 1000px;
+    min-height: 868px;
+    margin-top: 130px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 240px;
+
+    h1 {
+        font-size: 48px;
+        width: 100%;
+        text-shadow: #7d7d7d 5px 5px 15px;
+    }
+
+    .last {
+        width: 290px;
+        height: 316px;
+        background: linear-gradient(0deg, #ffffff, #E7F9FD00);
+        cursor: pointer;
+        transition: all .3s;
+        box-shadow: #e3e3e3 1px 1px 15px;
+        border-radius: 20px;
+    }
+
+    .last:hover{
+        margin-top: -10px;
+    }
+
+    .image {
+        display: block;
+        width: 290px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+
+    .flex {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        padding: 16px 3px;
+        gap: 12px;
+    }
+
+    .nav {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        font-size: 14px;
+        color: #333;
+    }
+
+    .time {
+        width: 18px;
+        height: 18px;
+    }
+
+    h3{
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 26px;
+        margin-top: 16px;
+        margin-left: 3px;
+    }
+
+    .hidden{
+        position: relative;
+    }
+
+    .like{
+        position: absolute;
+        top: 16px;
+        left: 228px;
+        
+    }
+
+    .like:hover{
+        width: 18%;
+        margin: -1px;
+    }
+}
