@@ -4,7 +4,7 @@ import styles from './RecipesCard2.module.scss';
 
 export const RecipesCard2 = ({ src, title, like }) => {
   return (
-    <div className={styles.last}>
+    <div className={styles.resipes}>
       <div className={styles.hidden}>
         <img src={src} alt="" className={styles.image} />
         <img className={styles.like} src={like} alt="" />
